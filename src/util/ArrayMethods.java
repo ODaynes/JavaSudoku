@@ -77,7 +77,7 @@ public class ArrayMethods {
      * @param i index of first element
      * @param j index of second element
      */
-    private static void swapElements(char[] arr, int i, int j) {
+    public static void swapElements(char[] arr, int i, int j) {
         char tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
